@@ -9,7 +9,7 @@ const Main = () => {
             <h1 className="md:text-[3rem] text-[1.8rem] font-extrabold">Jonathan Moreno</h1>
             <h2 className="md:text-[3rem] text-[1.8rem] font-extrabold text-[#6b6b6b]">I develop web-based solutions.</h2>
         </div>
-        <img src={Me} alt="" className="max-w-full h-auto border-2" />
+      
       </div>
 
     );
