@@ -1,5 +1,5 @@
 import React from "react"
-import Me from "../images/jonathan-image.png"
+import Me from "../data/images/jonathan-image.png"
 
 const Main = () => {
     return (
