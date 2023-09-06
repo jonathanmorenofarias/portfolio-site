@@ -21,7 +21,7 @@ const SkillCard = (props) => {
     }
 
     return (
-      <div className="flex flex-col gap-[1rem] items-center whitespace-nowrap p-12">
+      <div className="flex flex-col md:gap-[1rem] gap-[0.5rem] items-center whitespace-nowrap md:p-12 p-5">
         {icons()}
         <h1 className="font-bold text-[1.25rem] border-t-2 pt-2">{props.skill}</h1>
         {skills}

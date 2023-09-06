@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <div className="bg-primary-color 2xl:py-20 md:py-15 py-10 2xl:px-96 md:px-40 px-2 shadow-md">
             <h1 className="text-center font-bold text-white drop-shadow-lg text-[2rem] md:mb-[3rem] mb-[2rem]">Projects</h1>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="md:grid md:grid-cols-3 md:gap-4 flex flex-col gap-12">
                 {completedProjects}
             </div>
         </div>
