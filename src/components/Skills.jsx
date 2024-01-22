@@ -2,8 +2,8 @@ import React from "react"
 import SkillCard from "./SkillCard";
 const Skills = () => {
     const frontEndSkills = ["HTML", "CSS", "Javascript", "React JS", "Tailwind"]
-    const backEndSkills = ["Express JS", "C++"]
-    const dataBase = ["MongoDB"]
+    const backEndSkills = ["Go", "Python", "Fast API", "Node JS", "Express JS", "MongoDB", "SQL"]
+    const tools = ["Git", "Postman", "Vercel", "VS Code"]
 
 
     return (
@@ -12,7 +12,7 @@ const Skills = () => {
         <div className="flex md:flex-row flex-col justify-center md:items-start items-center items-top md:gap-[8rem] gap-[1rem]">
           <SkillCard skill="Front End" skills={frontEndSkills}/>
           <SkillCard skill="Back End" skills={backEndSkills}/>
-          <SkillCard skill="Database" skills={dataBase}/>
+          <SkillCard skill="Tools" skills={tools}/>
         </div>
       </div>
     );

@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="m-0 p-0">
+    <div >
         <Navbar />
         <Main />
         <AboutMe />

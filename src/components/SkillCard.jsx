@@ -1,7 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDatabase, faCode} from '@fortawesome/free-solid-svg-icons'
-import { faHtml5} from '@fortawesome/free-brands-svg-icons'
+import { faCode, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons'
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 const SkillCard = (props) => {
 
     const skills = props.skills.map(curSkill => {
@@ -14,8 +14,8 @@ const SkillCard = (props) => {
         } else if (props.skill === "Back End") {
             return <FontAwesomeIcon icon={faCode} className="bg-[#e9f1f5] h-[2.5rem] w-[2.5rem] p-[1.5rem] rounded-full text-[#486ff0]" />
 
-        }else if (props.skill === "Database") {
-            return <FontAwesomeIcon icon={faDatabase} className="bg-[#e9f1f5] h-[2.5rem] w-[2.5rem] p-[1.5rem] rounded-full text-[#486ff0]"/>
+        }else if (props.skill === "Tools") {
+            return <FontAwesomeIcon icon={faScrewdriverWrench} className="bg-[#e9f1f5] h-[2.5rem] w-[2.5rem] p-[1.5rem] rounded-full text-[#486ff0]"/>
 
         }
     }
