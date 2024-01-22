@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faX, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const [burgerOpen, setBurgerOpen] = React.useState(false)
@@ -9,7 +10,7 @@ const Navbar = () => {
       return setBurgerOpen(x =>!x)
     }
 
-    const itemsNav = ["About me", "Skills", "Projects", "Contact"]
+    const itemsNav = ["About", "Skills", "Projects", "Contact"]
     const responsiveNav = itemsNav.map (item => {
       return (
         <div className="flex items-center justify-between w-[100%]">
@@ -24,7 +25,7 @@ const Navbar = () => {
         <div className="flex flex-wrap justify-between items-center bg-primary-color shadow-lg h-20 px-[1rem]">
           <h1 className="text-[#F5F5F5]">&#60;<span className="text-secondary-color font-semibold">Jonathan</span> &#47;&#62;</h1>
           <nav className="flex justify-center items-center gap-10 md:flex hidden">
-              {itemsNav.map (item => <h1 className="hover:cursor-pointer hover:scale-[103%] duration-200 text-[#F5F5F5] font-semibold">{item}</h1>)}
+              {itemsNav.map (item => <Link to={String(item)} smooth={true} offset={-30} duration={500} className="hover:cursor-pointer hover:scale-[103%] duration-200 text-[#F5F5F5] font-semibold">{item}</Link>)}
           </nav>
           <FontAwesomeIcon icon={faBars} className="text-[#e2e2e2] md:hidden hover:cursor-pointer" onClick={open}/>
         </div>
