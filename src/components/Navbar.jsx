@@ -15,7 +15,7 @@ const Navbar = () => {
       return (
         <div className="flex items-center justify-between w-[100%]">
         <FontAwesomeIcon icon={faChevronLeft} />
-        <h1 className="text-[1.125rem]">{item}</h1> 
+        <Link to={String(item)} smooth={true} offset={-70} duration={500} onClick={() => setBurgerOpen(false)} className="text-[1.125rem]">{item}</Link> 
         </div>
       )
     })
