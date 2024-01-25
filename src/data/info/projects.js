@@ -19,7 +19,7 @@ export default [
     },
     {
         id: 3,
-        name: "Rawkstar Polling App",
+        name: "Rawkstar Insights",
         description: "This application combines a customer-friendly voting and feedback interface with a secure backend for data management and storage. It allows customers to vote and provide feedback, while ensuring data security and providing admin authentication for result viewing.",
         url: "https://github.com/jonathanmorenofarias/RAWKSTAR-NEWSLETTER",
         imgUrl: "https://res.cloudinary.com/dwdrq4xo1/image/upload/v1705929269/portfolio/rawkstar_vftmvv.png",
@@ -28,7 +28,7 @@ export default [
     },
     {
         id: 4,
-        name: "C Shell",
+        name: "Bash Shell",
         description: "Smallsh is a simple Linux shell designed to handle commands by creating new processes. It provides support for input and output redirection, as well as the ability to run commands in both foreground and background. Additionally, Smallsh includes custom signal handling for SIGINT (interrupt) to gracefully kill child foreground processes and SIGTSTP (stop) for disabling and reenabling background processes. Dockerized for easy deployment.",
         url: "https://github.com/jonathanmorenofarias/smallsh",
         imgUrl: "https://res.cloudinary.com/dwdrq4xo1/image/upload/v1705929854/portfolio/smallsh_j7kxys_ine4rt.png"
@@ -38,7 +38,7 @@ export default [
         name: "ATmega32U4 Keyboard Controller",
         description: "Designed for the ATmega32U4 microcontroller, allowing it to function as a keyboard controller. The program utilizes the Arduino Keyboard library to simulate keypresses based on the input from specific pins on the ATmega32U4.",
         url: "https://github.com/jonathanmorenofarias/Racing-Sim-Buttons",
-        imgUrl: ""
+        imgUrl: "https://res.cloudinary.com/dwdrq4xo1/image/upload/v1706145826/portfolio/sim_gvlu76.jpg"
     }
 
 
