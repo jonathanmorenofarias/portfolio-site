@@ -27,7 +27,7 @@ const Navbar = () => {
           <nav className="flex justify-center items-center gap-10 md:flex hidden">
               {itemsNav.map (item => <Link to={String(item)} smooth={true} offset={-30} duration={500} className="hover:cursor-pointer hover:scale-[103%] duration-200 text-[#F5F5F5] font-semibold">{item}</Link>)}
           </nav>
-          <FontAwesomeIcon icon={faBars} className="text-[#e2e2e2] md:hidden hover:cursor-pointer" onClick={open}/>
+          <FontAwesomeIcon icon={faBars} className="text-[#e2e2e2] text-[1.4rem] md:hidden hover:cursor-pointer" onClick={open}/>
         </div>
         <div className={`h-[100vh] w-[90vw] bg-[white] flex flex-col fixed text-center top-0 gap-[1rem] p-[1.5rem] items-end font-bold md:hidden shadow-2xl duration-500 ${burgerOpen ? "right-0": "-right-[100vw]"}`}>
           <FontAwesomeIcon icon={faX} onClick={open} className="hover:cursor-pointer scale-75"/>
